@@ -1,0 +1,140 @@
+/*cuerpo*/
+body{
+background-image: url('../paris.jpg');
+background-size: 100% 100%;
+background-attachment: fixed;/*la imagen se quede fija*/
+}
+*{
+box-sizing: border-box;
+/*controlar dimensiones sin que se vean afectadas
+por el border o por el padding*/
+margin:0;
+padding: 0;
+}
+/*clases especiales*/
+.borde{
+border:1px solid gray;
+}
+.titulo{
+width: 100%;
+height: 50px;
+}
+
+/*contenedor para pantallas grandes*/
+.contenedor{
+width: 99%;
+max-width: 1280px;
+margin:auto; /*quede centrado*/
+}
+nav{
+width: 100%;
+height: 50px;
+background-color: #db9f16;
+}
+/*La suma da 100=65+15+20*/
+.logo{
+width: 20%;
+height: 100%;
+float: left;
+padding: 5px;
+text-align: center;
+}
+/*en su interior a otra caja cuando esten separados*/
+.logo img{
+/*width: auto;*/
+/*height: 100%; de los 50px*/
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+.navegacion{
+width: 65%;
+height: 100%;
+float: left;
+}
+.ingreso{
+width: 15%;
+
+height: 100%;
+float: left;
+}
+/*encabezado*/
+header{
+width: 100%;
+height: 550px;
+/*depende del monitor*/
+background-image: url('../one2.jpeg');
+background-size:100% 100%;
+}
+main#portafolio{
+width: 100%;
+height: 550px;
+}
+.div-porta{
+width: 33.33%;
+height:100%;
+float: left;
+}
+/*quinenes-somos*/
+/*#titulo2{
+width: 100%;
+height: 50px;
+}*/
+section#quienes-somos{
+width: 100%;
+height: 550px;
+}
+.fila{
+width: 100%;
+height: 33.33%;
+}
+.col-ext{
+width: 40%;
+height: 100%;
+float: left;
+}
+.col-cen{
+width: 20%;
+height: 100%;
+float: left;
+}
+section#contactenos{
+width: 100%;
+height: 550px;
+}
+.div-contacto{
+width: 50%;
+height: 100%;
+float: left;
+}
+.div-arr{
+width: 100%;
+height:70%;
+}
+.div-aba{
+width: 100%;
+height:30%;
+}
+/*footer*/
+footer{
+width: 100%;
+height: 50px;
+}
+.div-porta{
+width: 33.33%;
+height:100%;
+float: left;
+text-align: center;
+padding: 50px;
+font-size: 13px;
+}
+.div-porta img{
+width: 150px;
+height: 150px;
+margin: 40px 0px 0px 0px;
+border-radius: 50%;
+}
+.div-porta p{
+    margin: 40px 0px 0px 0px;
+text-align: justify;
+}
